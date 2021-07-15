@@ -46,17 +46,17 @@ We are going to predict an outcome that's either yes or no, which means that we 
 - So we provide the connection of our train model as well as the test dataset. The test dataset is coming from the second node of split module. Now, let's right click on it and run selected. It will run all the previous steps that have not been executed so far.
 - <img width="600" alt="Screen Shot 2021-07-15 at 9 11 22 PM" src="https://user-images.githubusercontent.com/55271617/125816708-2df38a8d-d7b1-405a-b592-c50927baf519.png">
 - Now we can visualise the output.
-- <img width="1237" alt="Screen Shot 2021-07-15 at 9 12 57 PM" src="https://user-images.githubusercontent.com/55271617/125816945-c4056449-dfd8-451f-95f2-fa4ea43920bd.png">
+- <img width="600" alt="Screen Shot 2021-07-15 at 9 12 57 PM" src="https://user-images.githubusercontent.com/55271617/125816945-c4056449-dfd8-451f-95f2-fa4ea43920bd.png">
 - As you can see, there are two additional columns called scored label and score probabilities, scored label is the predicted value of that particular set of features or rows and score probability is the probability with which this particular value has been predicted.
 
 ## 4)Evaluating our model :
 Lets visualize these results in a bit more structured manner.
 - We will use a module called `evaluate model` for evaluating our results.
 - It takes 2 nodes which are for evaluating different models. The second one is optional and let's connect our scored model to the first node and run it.
-- <img width="806" alt="Screen Shot 2021-07-15 at 9 14 25 PM" src="https://user-images.githubusercontent.com/55271617/125817175-34cbee29-9649-4ae5-ac9f-29b98ba9e1ff.png">
+- <img width="600" alt="Screen Shot 2021-07-15 at 9 14 25 PM" src="https://user-images.githubusercontent.com/55271617/125817175-34cbee29-9649-4ae5-ac9f-29b98ba9e1ff.png">
 
 - After visulising the output, we can say the accuracy is around `91%` and the AUC i.e area under the curve is also very high which means that the model is a very good model.
-- <img width="1240" alt="Screen Shot 2021-07-15 at 9 16 15 PM" src="https://user-images.githubusercontent.com/55271617/125817433-cac7ef30-b9ce-4342-ab71-bdd85256ea5a.png">
+- <img width="600" alt="Screen Shot 2021-07-15 at 9 16 15 PM" src="https://user-images.githubusercontent.com/55271617/125817433-cac7ef30-b9ce-4342-ab71-bdd85256ea5a.png">
 
 
 ## Thank You, Hope the explanation was clear and to the point !
